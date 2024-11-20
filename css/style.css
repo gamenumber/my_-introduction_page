@@ -113,3 +113,17 @@ hr,
     aspect-ratio: 1/1;
     overflow: hidden;
 }
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e5533d;
+}
