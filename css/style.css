@@ -127,3 +127,169 @@ hr,
 .btn:hover {
     background: #e5533d;
 }
+
+.vision, .personality, .skill, .portfolio, .education, .experience, .hobby {
+    margin-top: 5rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 10px;
+}
+
+.inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Header 스타일 */
+#header {
+    background: linear-gradient(120deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#header .intro {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* 메인 섹션 스타일 */
+/* 메인 섹션 스타일 */
+#main section {
+    padding: 50px 0; /* 패딩 확대 */
+    border-bottom: 1px solid #ddd;
+}
+
+#main h2 {
+    font-size: 7rem; /* 제목 크기 확대 */
+    color: #2575fc;
+    margin-bottom: 25px;
+}
+
+#main p {
+    font-size: 4rem; /* 본문 텍스트 크기 확대 */
+    color: #555;
+    margin-bottom: 25px;
+}
+
+#main ul {
+    list-style: none;
+    padding: 0;
+}
+
+#main li {
+    font-size: 4.5rem; /* 리스트 항목 크기 확대 */
+    margin: 10px 0; /* 항목 간격 확대 */
+    color: #444;
+}
+
+/* 포트폴리오 스타일 */
+.portfolio .btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #6a11cb;
+    color: white;
+    padding: 15px 30px; /* 버튼 크기 확대 */
+    font-size: 3.6rem; /* 버튼 텍스트 크기 확대 */
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.portfolio .btn:hover {
+    background: #2575fc;
+}
+
+/* 학력과 경험 강조 */
+.education, .experience {
+    background: #f1f5f9;
+    padding: 40px 30px; /* 섹션 패딩 확대 */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.education p, .experience p {
+    font-weight: bold;
+    font-size: 4.2rem; /* 텍스트 크기 확대 */
+}
+
+/* 취미 섹션 포인트 */
+.hobby {
+    text-align: center;
+    background: #ffe4e1;
+    padding: 60px 30px; /* 섹션 패딩 확대 */
+}
+
+.hobby h2 {
+    color: #d9534f;
+    font-size: 7.5rem; /* 제목 크기 확대 */
+    margin-bottom: 25px;
+}
+
+.hobby p {
+    font-size: 4.5rem; /* 본문 텍스트 크기 확대 */
+    font-style: italic;
+    color: #555;
+}
+
+
+/* 푸터 */
+/* 푸터 스타일 */
+#footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 7rem;
+}
+
+#footer .contact {
+    margin-top: 20px;
+}
+
+#footer .contact-title {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #6a11cb;
+}
+
+/* Flexbox를 사용한 연락처 배치 */
+#footer .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem; /* 요소 간 간격 조정 */
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 6rem;
+}
+
+/* 이메일 스타일 */
+#footer a {
+    color: #2575fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#footer a:hover {
+    color: #6a11cb;
+}
+
